@@ -1,6 +1,6 @@
 module github.com/pachyderm/pachyderm/v2
 
-go 1.23.1
+go 1.25.0
 
 require (
 	cloud.google.com/go/profiler v0.3.0
@@ -37,7 +37,7 @@ require (
 	github.com/golang/protobuf v1.5.4
 	github.com/golangci/gofmt v0.0.0-20240816233607-d8596aa466a9
 	github.com/google/btree v1.1.2
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-jsonnet v0.20.0
 	github.com/google/gofuzz v1.2.0
 	github.com/google/uuid v1.6.0
@@ -88,7 +88,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/tdakkota/asciicheck v0.2.0
 	github.com/timewasted/go-accept-headers v0.0.0-20130320203746-c78f304b1b09
 	github.com/tomarrell/wrapcheck/v2 v2.9.0
@@ -108,11 +108,11 @@ require (
 	gocloud.dev v0.27.0
 	golang.org/x/crypto v0.31.0
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
-	golang.org/x/mod v0.20.0
+	golang.org/x/mod v0.21.0
 	golang.org/x/net v0.33.0
 	golang.org/x/oauth2 v0.21.0
 	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.28.0
+	golang.org/x/sys v0.47.0
 	golang.org/x/term v0.27.0
 	golang.org/x/text v0.21.0
 	golang.org/x/vuln v1.1.2
@@ -130,6 +130,8 @@ require (
 	sigs.k8s.io/kind v0.22.0
 	sigs.k8s.io/yaml v1.4.0
 )
+
+require go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 
 require (
 	cloud.google.com/go v0.115.0 // indirect
@@ -220,7 +222,7 @@ require (
 	github.com/go-jose/go-jose/v3 v3.0.3 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.4 // indirect
 	github.com/go-ldap/ldap/v3 v3.4.4 // indirect
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
@@ -314,7 +316,7 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/pulumi/pulumi-docker/sdk/v3 v3.6.1 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
-	github.com/rogpeppe/go-internal v1.13.1 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/rs/xid v1.4.0 // indirect
 	github.com/russellhaering/goxmldsig v1.3.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
@@ -347,20 +349,20 @@ require (
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
-	go.opentelemetry.io/otel v1.28.0 // indirect
+	go.opentelemetry.io/otel v1.45.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.28.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.20.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.28.0 // indirect
-	go.opentelemetry.io/otel/metric v1.28.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.28.0 // indirect
-	go.opentelemetry.io/otel/trace v1.28.0 // indirect
+	go.opentelemetry.io/otel/metric v1.45.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.45.0 // indirect
+	go.opentelemetry.io/otel/trace v1.45.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20231108232855-2478ac86f678 // indirect
 	golang.org/x/image v0.23.0 // indirect
 	golang.org/x/telemetry v0.0.0-20240522233618-39ace7a40ae7 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	golang.org/x/tools v0.24.0
+	golang.org/x/tools v0.26.0
 	golang.org/x/tools/go/vcs v0.1.0-deprecated // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/api v0.183.0 // indirect
