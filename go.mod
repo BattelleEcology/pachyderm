@@ -1,6 +1,6 @@
 module github.com/pachyderm/pachyderm/v2
 
-go 1.23.1
+go 1.24
 
 require (
 	cloud.google.com/go/profiler v0.3.0
@@ -60,7 +60,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/juju/ansiterm v0.0.0-20180109212912-720a0952cc2a
 	github.com/kisielk/errcheck v1.7.1-0.20240702033320-b832de3f3c5a
-	github.com/klauspost/compress v1.16.4
+	github.com/klauspost/compress v1.18.7
 	github.com/lib/pq v1.10.7
 	github.com/mattn/go-isatty v0.0.18
 	github.com/minio/minio-go/v6 v6.0.57
