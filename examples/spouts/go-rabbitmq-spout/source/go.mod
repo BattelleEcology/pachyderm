@@ -1,6 +1,6 @@
 module github.com/pachyderm/pachyderm/examples/spouts/go-rabbitmq-spout/source
 
-go 1.23.1
+go 1.24
 
 require (
 	github.com/pachyderm/pachyderm/v2 v2.11.1
@@ -68,7 +68,7 @@ require (
 	github.com/jonboulle/clockwork v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.7 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
